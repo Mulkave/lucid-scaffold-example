@@ -9,15 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace App\Services\Api\Http\Controllers;
+namespace App\Services\Backend\Http\Controllers;
 
-use App\Foundation\Http\Controller;
-use App\Services\Api\Features\YepFeature;
-
-class TheController extends Controller
+class ArticlesController
 {
     /**
-     * Find an article by id (can also be the slug).
+     * Get an article by id.
      *
      * @api {get} /articles/{id} Article Details
      * @apiGroup Articles
@@ -39,10 +36,5 @@ class TheController extends Controller
     public function show($id)
     {
 
-    }
-
-    public function index()
-    {
-        return $this->serve(YepFeature::class);
     }
 }

@@ -1,0 +1,1 @@
+{  "name": "Backend API",  "version": "1.0.0",  "description": "Backend API Documentation",  "url": "https://backend",  "title": "Backend API Documentation",  "sampleUrl": false,  "apidoc": "0.2.0",  "generator": {    "name": "apidoc",    "time": "2015-09-09T08:50:40.210Z",    "url": "http://apidocjs.com",    "version": "0.13.1"  }}
